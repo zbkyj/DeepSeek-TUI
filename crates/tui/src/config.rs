@@ -56,7 +56,9 @@ pub const COMMON_DEEPSEEK_MODELS: &[&str] = &[
     "deepseek-ai/deepseek-v4-pro",
     "deepseek-ai/deepseek-v4-flash",
     "deepseek/deepseek-v4-pro",
-    "deepseek/deepseek-v4-flash",
+    "deepseek/deepseek-v4-flash",    "mimo-v2-flash",
+    "mimo-v2-pro",
+    "mimo-v2-omni",
 ];
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq, serde::Serialize, serde::Deserialize)]

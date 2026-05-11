@@ -192,6 +192,28 @@ impl Default for ModelRegistry {
                 supports_tools: true,
                 supports_reasoning: false,
             },
+            // --- 灏忕背 MiMo ---
+            ModelInfo {
+                id: "mimo-v2-flash".to_string(),
+                provider: ProviderKind::Openai,
+                aliases: vec![],
+                supports_tools: true,
+                supports_reasoning: false,
+            },
+            ModelInfo {
+                id: "mimo-v2-pro".to_string(),
+                provider: ProviderKind::Openai,
+                aliases: vec![],
+                supports_tools: true,
+                supports_reasoning: true,
+            },
+            ModelInfo {
+                id: "mimo-v2-omni".to_string(),
+                provider: ProviderKind::Openai,
+                aliases: vec![],
+                supports_tools: true,
+                supports_reasoning: true,
+            },
         ];
         Self::new(models)
     }
